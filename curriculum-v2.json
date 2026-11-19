@@ -1,0 +1,1767 @@
+{
+  "metadata": {
+    "title": "Miɗo Waawi Pular! — Competences 1–3 Curriculum",
+    "source_book": "Miɗo Waawi Pular! Learner's Guide to Pular (Fuuta Jallon), 2nd Edition",
+    "authors": [
+      "Herb Caudill",
+      "Ousmane Besseko Diallo"
+    ],
+    "dialect": "Pular (Fuuta Jallon)",
+    "orthography": "UNESCO Bamako 1966 harmonized alphabet (implosives: ɓ, ɗ, ƴ; palatal: ñ; velar: ŋ)",
+    "competences_covered": [
+      1,
+      2,
+      3
+    ],
+    "counts": {
+      "vocabulary": 45,
+      "exercises": 23
+    }
+  },
+  "competences": [
+    {
+      "id": "comp_1",
+      "number": 1,
+      "title": "Greetings",
+      "pular_title": "No wa'i?",
+      "english_subtitle": "What's up?",
+      "source_pages": "1-6",
+      "dialogues": [
+        {
+          "id": "dlg_1_1",
+          "title_pular": "Salminagol mawɓe",
+          "title_english": "Greeting an old person",
+          "lines": [
+            {
+              "speaker": "Elder",
+              "pular": "On jaraama.",
+              "english": "I greet you. (respectful)"
+            },
+            {
+              "speaker": "Learner",
+              "pular": "On jaraama.",
+              "english": "I greet you. (respectful)"
+            },
+            {
+              "speaker": "Elder",
+              "pular": "Tanna alaa?",
+              "english": "Is there no evil?"
+            },
+            {
+              "speaker": "Learner",
+              "pular": "Jam tun.",
+              "english": "Peace only."
+            },
+            {
+              "speaker": "Elder",
+              "pular": "Ɓeyngure nden no e jam?",
+              "english": "Is the family well?"
+            },
+            {
+              "speaker": "Learner",
+              "pular": "Jam tun.",
+              "english": "Peace only."
+            },
+            {
+              "speaker": "Learner",
+              "pular": "Awa, en jango.",
+              "english": "OK, see you tomorrow."
+            },
+            {
+              "speaker": "Elder",
+              "pular": "En jango, si Alla jaɓi.",
+              "english": "See you tomorrow, God willing."
+            }
+          ]
+        },
+        {
+          "id": "dlg_1_2",
+          "title_pular": "Salminagol sukaajo",
+          "title_english": "Greeting a young person",
+          "lines": [
+            {
+              "speaker": "Friend",
+              "pular": "A jaraama.",
+              "english": "I greet you."
+            },
+            {
+              "speaker": "Learner",
+              "pular": "A jaraama. No wa'i?",
+              "english": "I greet you. What's up?"
+            },
+            {
+              "speaker": "Friend",
+              "pular": "Jam tun. No marsude?",
+              "english": "Peace only. How's it going?"
+            },
+            {
+              "speaker": "Learner",
+              "pular": "Hii-hi, no marsude fota.",
+              "english": "Yes, it's going very well."
+            },
+            {
+              "speaker": "Friend",
+              "pular": "Golle ɗen no marsude?",
+              "english": "Is work going well?"
+            },
+            {
+              "speaker": "Learner",
+              "pular": "No marsude seeɗa.",
+              "english": "It's going so-so / a little."
+            },
+            {
+              "speaker": "Learner",
+              "pular": "Awa, en ontuma, naani?",
+              "english": "OK, see you later, hear?"
+            },
+            {
+              "speaker": "Friend",
+              "pular": "Awa, oo-o!",
+              "english": "OK, bye!"
+            }
+          ]
+        }
+      ],
+      "grammar_summary": {
+        "topic": "Spelling and Pronunciation",
+        "key_points": [
+          "Pular is written phonetically (one symbol, one sound) using the 1966 UNESCO Bamako orthography.",
+          "Five pure vowels (a, e, i, o, u) pronounced like Spanish or Italian; double vowels (aa, ee, ii, oo, uu) mark vowel length.",
+          "Three implosive consonants: ɓ (bh), ɗ (dh), and ƴ (yh). Contrasting normal vs. implosive consonants changes word meaning.",
+          "Double consonants (bb, cc, tt) indicate stressed/geminated consonants; ' marks a glottal stop.",
+          "c is pronounced like 'ch' in 'cello'; ñ is pronounced 'ny'; ŋ is pronounced like 'ng' in 'sing'; r is rolled."
+        ]
+      },
+      "cultural_notes": [
+        {
+          "title": "Respect",
+          "summary": "Older people, authority figures, and strangers are addressed in the plural (On jaraama). Respect also uses plural forms in the 3rd person and special respect vocabulary (e.g., ɓelagol instead of waalugol for sleeping)."
+        },
+        {
+          "title": "Body Language",
+          "summary": "Shaking hands with both hands, or holding your forearm/elbow while shaking hands, shows deference. Looking downward or away is respectful; direct eye contact can be read as aggressive."
+        },
+        {
+          "title": "Greetings During Prayertime",
+          "summary": "Elders walking with prayer beads and moving lips cannot interrupt prayer; greet them with a smile, nod, or hands clasped in front of your chest."
+        },
+        {
+          "title": "The Will of God",
+          "summary": "Si Alla jaɓi ('God willing', literally 'If God accepts') accompanies virtually any statement or arrangement about the future."
+        }
+      ]
+    },
+    {
+      "id": "comp_2",
+      "number": 2,
+      "title": "Introductions",
+      "pular_title": "Wonaa mi Faranseejo, ɗey!",
+      "english_subtitle": "No, I'm not French!",
+      "source_pages": "7-12",
+      "dialogues": [
+        {
+          "id": "dlg_2_1",
+          "title_pular": "Ka diskotek",
+          "title_english": "At the dance club",
+          "lines": [
+            {
+              "speaker": "Local",
+              "pular": "Ko honno inneteɗa?",
+              "english": "What is your name?"
+            },
+            {
+              "speaker": "Susan",
+              "pular": "Ko Susan mi innete.",
+              "english": "My name is Susan."
+            },
+            {
+              "speaker": "Local",
+              "pular": "An, ko a Faranseejo?",
+              "english": "You, are you French?"
+            },
+            {
+              "speaker": "Susan",
+              "pular": "O'owooye. Min, ko mi Amerikeenjo.",
+              "english": "No. Me, I am American."
+            },
+            {
+              "speaker": "Local",
+              "pular": "Ko a jannoowo?",
+              "english": "Are you a teacher?"
+            },
+            {
+              "speaker": "Susan",
+              "pular": "Hii-hi. Ko mi jannoowo Matematik.",
+              "english": "Yes. I am a Math teacher."
+            }
+          ]
+        },
+        {
+          "id": "dlg_2_2",
+          "title_pular": "Ka gaar watiir",
+          "title_english": "At the taxi park",
+          "lines": [
+            {
+              "speaker": "Ousmane",
+              "pular": "Ko honno inneteɗa?",
+              "english": "What is your name?"
+            },
+            {
+              "speaker": "Salyu",
+              "pular": "Ko Salyu mi innetee.",
+              "english": "My name is Salyu."
+            },
+            {
+              "speaker": "Ousmane",
+              "pular": "Yettoore maa?",
+              "english": "Your last name?"
+            },
+            {
+              "speaker": "Salyu",
+              "pular": "Ko Bah mi yettetee. An le?",
+              "english": "My last name is Bah. And you?"
+            },
+            {
+              "speaker": "Ousmane",
+              "pular": "Min ko Ousmane Diallo mi innetee. Ko mo a honto?",
+              "english": "My name is Ousmane Diallo. Where are you from?"
+            },
+            {
+              "speaker": "Salyu",
+              "pular": "Ko mo mi Labe. An, ko honto iwuɗaa?",
+              "english": "I'm from Labé. And you, where do you come from?"
+            },
+            {
+              "speaker": "Ousmane",
+              "pular": "Min, ko Timbo mi iwi.",
+              "english": "Me, I come from Timbo."
+            },
+            {
+              "speaker": "Salyu",
+              "pular": "Ko honto e Timbo?",
+              "english": "Where in Timbo?"
+            },
+            {
+              "speaker": "Ousmane",
+              "pular": "Tigi tigi, ko Besseko mi iwi.",
+              "english": "Specifically, I come from Besseko."
+            },
+            {
+              "speaker": "Ousmane",
+              "pular": "Awa. Tanna alaa ton?",
+              "english": "OK. Is everything peaceful there?"
+            },
+            {
+              "speaker": "Salyu",
+              "pular": "Jam tun. Tanna alaa?",
+              "english": "Peace only. Is everything well?"
+            },
+            {
+              "speaker": "Ousmane",
+              "pular": "Ko yettude Alla. Ko honɗun gollataa?",
+              "english": "Thanks be to God. What work do you do?"
+            },
+            {
+              "speaker": "Salyu",
+              "pular": "Ko mi jannoowo Anglee. An kadi, ko a jannoowo?",
+              "english": "I am an English teacher. Are you also a teacher?"
+            },
+            {
+              "speaker": "Ousmane",
+              "pular": "O'o, ko mi njulaajo.",
+              "english": "No, I am a merchant."
+            }
+          ]
+        }
+      ],
+      "grammar_summary": {
+        "topic": "Personal Pronouns & Equative Particles (ko / wonaa)",
+        "key_points": [
+          "No grammatical gender in 3rd person singular: o means both 'he' and 'she' (independent: kanko).",
+          "Two forms of 'we': exclusive men / menen (excludes the listener) and inclusive en / enen (includes the listener).",
+          "2nd person plural on / onon also serves as the polite/respectful singular 'you'.",
+          "The particle ko fills in for 'to be' in equative/focused statements (Ko mi jannoowo — 'I am a teacher').",
+          "The negation of ko is wonaa (Wonaa mi jannoowo — 'I am not a teacher').",
+          "Marriage expressions differ by gender: men use A jombii? / Mi jombaali. / Mi jombii.; women use A jombaama? / Mi jombaaka. / Mi jombaama."
+        ],
+        "pronouns_table": [
+          {
+            "person": "1st singular",
+            "english": "I",
+            "subject": "mi",
+            "independent": "min"
+          },
+          {
+            "person": "2nd singular",
+            "english": "you (familiar)",
+            "subject": "a",
+            "independent": "an"
+          },
+          {
+            "person": "3rd singular",
+            "english": "he / she",
+            "subject": "o",
+            "independent": "kanko"
+          },
+          {
+            "person": "1st plural exclusive",
+            "english": "we (excluding listener)",
+            "subject": "men",
+            "independent": "menen"
+          },
+          {
+            "person": "1st plural inclusive",
+            "english": "we (including listener)",
+            "subject": "en",
+            "independent": "enen"
+          },
+          {
+            "person": "2nd plural",
+            "english": "you (plural / respectful)",
+            "subject": "on",
+            "independent": "onon"
+          },
+          {
+            "person": "3rd plural",
+            "english": "they",
+            "subject": "ɓe",
+            "independent": "kanɓe"
+          }
+        ]
+      },
+      "cultural_notes": [
+        {
+          "title": "Last Name Games (Sanakuyaagal)",
+          "summary": "Among the four noble Fulɓe-Fuuta clans, joking relationships (sanakuyaagal) pair Diallo with Balde/Bah, and Sow with Barry. Cross-clan pairs playfully tease each other on sight."
+        },
+        {
+          "title": "Marriage Proposals",
+          "summary": "Casual marriage proposals (Miɗo faala jombude ma) are frequently made in jest and are best met with humor or polite deflections (e.g., Miɗo mari moodi — 'I have a husband', or Mi yettaama — 'I'm already taken')."
+        }
+      ]
+    },
+    {
+      "id": "comp_3",
+      "number": 3,
+      "title": "Family",
+      "pular_title": "Ɓeyngure nden no e jam?",
+      "english_subtitle": "Is your family well?",
+      "source_pages": "13-22",
+      "dialogues": [
+        {
+          "id": "dlg_3_1",
+          "title_pular": "Miñan an Bubakar",
+          "title_english": "My little brother Bubakar",
+          "lines": [
+            {
+              "speaker": "Visitor",
+              "pular": "Ko hombo nii?",
+              "english": "Who is that?"
+            },
+            {
+              "speaker": "Host",
+              "pular": "Ko miñan an nii.",
+              "english": "That is my younger brother."
+            },
+            {
+              "speaker": "Visitor",
+              "pular": "Ko honno o innetee?",
+              "english": "What is his name?"
+            },
+            {
+              "speaker": "Host",
+              "pular": "Ko Buubakar o innete. Ko men neenegotooɓe.",
+              "english": "His name is Boubacar. We have the same mother (we are full siblings)."
+            },
+            {
+              "speaker": "Visitor",
+              "pular": "Ko duuɓi jelu o mari?",
+              "english": "How old is he?"
+            },
+            {
+              "speaker": "Host",
+              "pular": "Ko duuɓi nogay o mari.",
+              "english": "He is twenty years old."
+            },
+            {
+              "speaker": "Visitor",
+              "pular": "Ko honɗun o gollata?",
+              "english": "What does he do?"
+            },
+            {
+              "speaker": "Host",
+              "pular": "Ko o jannoowo.",
+              "english": "He is a teacher."
+            },
+            {
+              "speaker": "Visitor",
+              "pular": "Ko miñiraaɓe njelo maruɗaa?",
+              "english": "How many younger siblings do you have?"
+            },
+            {
+              "speaker": "Host",
+              "pular": "Ko miñiraaɓe tato mi mari.",
+              "english": "I have three younger siblings."
+            }
+          ]
+        }
+      ],
+      "grammar_summary": {
+        "topic": "Possessive Pronouns, Numbers (1–99), & Reported Speech (woo)",
+        "key_points": [
+          "Possessive pronouns follow the noun they modify: 'baaba an' (my father), 'ɓeyngu maa' (your wife).",
+          "A person's name can directly replace the possessive pronoun after the noun: 'baaba Aamadu' (Amadou's father), 'ɓeyngu Yunuusa' (Younoussa's wife).",
+          "The 1st-person plural inclusive ('men') and 2nd-person plural ('mon') possessive pronouns have lengthened, more insistent forms: 'me'en' and 'mo'on'.",
+          "Numbers differ slightly when counting people vs. things/animals (e.g., 'duuɓi tati' = 3 years vs. 'Amerikenɓe tato' = 3 Americans; 'jelu' = how many things vs. 'njelo' = how many people).",
+          "Compound numbers link tens and units with 'e' (e.g., 'sappo e ɗiɗi' = 12, 'nogay e jeetati' = 28, 'cappande tati e tati' = 33).",
+          "The key word 'woo' introduces reported speech or hearsay ('he/she says...' or 'they say...'), e.g., 'Woo, o waawataa Pular.' ('He says he doesn't speak Pular.')."
+        ],
+        "pronouns_table": [
+          {
+            "person": "1st singular",
+            "english": "I / my",
+            "subject": "mi",
+            "independent": "min",
+            "possessive": "an"
+          },
+          {
+            "person": "2nd singular",
+            "english": "you / your (familiar)",
+            "subject": "a",
+            "independent": "an",
+            "possessive": "maa"
+          },
+          {
+            "person": "3rd singular",
+            "english": "he, she / his, her",
+            "subject": "o",
+            "independent": "kanko",
+            "possessive": "makko"
+          },
+          {
+            "person": "1st plural inclusive",
+            "english": "we / our (incl.)",
+            "subject": "en",
+            "independent": "enen",
+            "possessive": "men / me'en"
+          },
+          {
+            "person": "1st plural exclusive",
+            "english": "we / our (excl.)",
+            "subject": "men",
+            "independent": "menen",
+            "possessive": "amen"
+          },
+          {
+            "person": "2nd plural",
+            "english": "you / your (pl. or respectful)",
+            "subject": "on",
+            "independent": "onon",
+            "possessive": "mon / mo'on"
+          },
+          {
+            "person": "3rd plural",
+            "english": "they / their",
+            "subject": "ɓe",
+            "independent": "kanɓe",
+            "possessive": "maɓɓe"
+          }
+        ],
+        "numbers_reference": [
+          {
+            "value": 1,
+            "things_animals": "go'o",
+            "people": "gooto"
+          },
+          {
+            "value": 2,
+            "things_animals": "ɗiɗi",
+            "people": "ɗiɗo"
+          },
+          {
+            "value": 3,
+            "things_animals": "tati",
+            "people": "tato"
+          },
+          {
+            "value": 4,
+            "things_animals": "nay",
+            "people": "nayo"
+          },
+          {
+            "value": 5,
+            "things_animals": "jowi",
+            "people": "jowo"
+          },
+          {
+            "value": 6,
+            "things_animals": "jeego",
+            "people": "jeego"
+          },
+          {
+            "value": 7,
+            "things_animals": "jeeɗiɗi",
+            "people": "jeeɗiɗo"
+          },
+          {
+            "value": 8,
+            "things_animals": "jeetati",
+            "people": "jeetato"
+          },
+          {
+            "value": 9,
+            "things_animals": "jeenay",
+            "people": "jeenayo"
+          },
+          {
+            "value": 10,
+            "things_animals": "sappo",
+            "people": "sappo"
+          },
+          {
+            "value": 11,
+            "things_animals": "sappo e go'o",
+            "people": "sappo e go'o"
+          },
+          {
+            "value": 12,
+            "things_animals": "sappo e ɗiɗi",
+            "people": "sappo e ɗiɗo"
+          },
+          {
+            "value": 20,
+            "things_animals": "nogay",
+            "people": "nogayo"
+          },
+          {
+            "value": 30,
+            "things_animals": "cappande tati",
+            "people": "cappande tato"
+          },
+          {
+            "value": 40,
+            "things_animals": "cappande nay",
+            "people": "cappande nayo"
+          },
+          {
+            "value": 50,
+            "things_animals": "cappande jowi",
+            "people": "cappande jowo"
+          },
+          {
+            "value": 60,
+            "things_animals": "cappande jeego",
+            "people": "cappande jeego"
+          },
+          {
+            "value": 70,
+            "things_animals": "cappande jeeɗiɗi",
+            "people": "cappande jeeɗiɗo"
+          },
+          {
+            "value": 80,
+            "things_animals": "cappande jeetati",
+            "people": "cappande jeetato"
+          },
+          {
+            "value": 90,
+            "things_animals": "cappande jeenay",
+            "people": "cappande jeenayo"
+          }
+        ]
+      },
+      "cultural_notes": [
+        {
+          "title": "Family Terminology",
+          "summary": "Kinship words like brother, father, mother, uncle, and child are applied broadly in Fulɓe society. A 'brother' may be a half-brother, cousin, distant relative, or close friend; establishing exact genealogy requires asking whether two people share the same mother (neenegooto) or father (baabagooto)."
+        },
+        {
+          "title": "Polygamy",
+          "summary": "Many men have two, three, or four wives, creating specific everyday terms for co-wives (siinaa) and half-siblings who share a father but have different mothers (baabagooto)."
+        },
+        {
+          "title": "Age",
+          "summary": "Traditionally, birthdates are not emphasized in Fulɓe culture, so it is common for people not to know their exact numerical age."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "v01",
+      "competence": 1,
+      "category": "basic_greetings",
+      "pular": "A jaraama.",
+      "ascii": "A jaraama.",
+      "english": "I greet you. / Thank you.",
+      "part_of_speech": "phrase",
+      "register": "familiar_singular",
+      "plural_form": "On jaraama.",
+      "usage_note": "Standard greeting and expression of thanks used with peers or younger people."
+    },
+    {
+      "id": "v02",
+      "competence": 1,
+      "category": "basic_greetings",
+      "pular": "On jaraama.",
+      "ascii": "On jaraama.",
+      "english": "I greet you. / Thank you.",
+      "part_of_speech": "phrase",
+      "register": "respectful_or_plural",
+      "plural_form": null,
+      "usage_note": "Used when greeting elders, authority figures, strangers, or two or more people."
+    },
+    {
+      "id": "v03",
+      "competence": 1,
+      "category": "basic_greetings",
+      "pular": "Tanna alaa?",
+      "ascii": "Tanna alaa?",
+      "english": "Is there no evil? (Is everything OK?)",
+      "part_of_speech": "phrase",
+      "register": "neutral",
+      "plural_form": null,
+      "usage_note": "Core follow-up greeting question; standard reply is 'Jam tun.' Add 'ton' (there) or 'gaa' (here) for location."
+    },
+    {
+      "id": "v04",
+      "competence": 1,
+      "category": "basic_greetings",
+      "pular": "Jam tun.",
+      "ascii": "Jam tun.",
+      "english": "Peace only. (Everything is fine.)",
+      "part_of_speech": "phrase",
+      "register": "neutral",
+      "plural_form": null,
+      "usage_note": "The universal positive reply to almost all Pular greeting questions."
+    },
+    {
+      "id": "v05",
+      "competence": 1,
+      "category": "basic_greetings",
+      "pular": "No wa'i?",
+      "ascii": "No wa'i?",
+      "english": "What's up?",
+      "part_of_speech": "phrase",
+      "register": "casual",
+      "plural_form": null,
+      "usage_note": "Informal greeting commonly used among young people; features a glottal stop (')."
+    },
+    {
+      "id": "v06",
+      "competence": 1,
+      "category": "basic_greetings",
+      "pular": "No marsude?",
+      "ascii": "No marsude?",
+      "english": "How's it going? (Ça marche?)",
+      "part_of_speech": "phrase",
+      "register": "casual",
+      "plural_form": null,
+      "usage_note": "Borrowed from French 'marcher'. Common replies: 'No marsude fota.' (very well) or 'No marsude seeɗa.' (so-so)."
+    },
+    {
+      "id": "v07",
+      "competence": 1,
+      "category": "greeting_questions",
+      "pular": "Ɓeyngure nden no e jam?",
+      "ascii": "Beyngure nden no e jam?",
+      "english": "Is the family well?",
+      "part_of_speech": "phrase",
+      "register": "neutral",
+      "plural_form": null,
+      "usage_note": "Answered with 'Jam tun.' or 'Hiɓe e jam.' (They are well)."
+    },
+    {
+      "id": "v08",
+      "competence": 1,
+      "category": "greeting_questions",
+      "pular": "On belike e jam?",
+      "ascii": "On belike e jam?",
+      "english": "Did you sleep in peace? (Good morning)",
+      "part_of_speech": "phrase",
+      "register": "respectful",
+      "plural_form": null,
+      "usage_note": "Respectful morning greeting; familiar equivalent is 'A walli e jam?' / 'A waali e jam?'."
+    },
+    {
+      "id": "v09",
+      "competence": 1,
+      "category": "alternatives_to_jam_tun",
+      "pular": "Ko yettude Alla.",
+      "ascii": "Ko yettude Alla.",
+      "english": "Thanks be to God.",
+      "part_of_speech": "phrase",
+      "register": "neutral",
+      "plural_form": null,
+      "usage_note": "Common alternative response to 'Jam tun.', similar to 'Alhamdullilahi.'."
+    },
+    {
+      "id": "v10",
+      "competence": 1,
+      "category": "taking_leave",
+      "pular": "En ontuma.",
+      "ascii": "En ontuma.",
+      "english": "See you later.",
+      "part_of_speech": "phrase",
+      "register": "neutral",
+      "plural_form": null,
+      "usage_note": "Uses the inclusive pronoun 'en' (you and I)."
+    },
+    {
+      "id": "v11",
+      "competence": 1,
+      "category": "taking_leave",
+      "pular": "En jango.",
+      "ascii": "En jango.",
+      "english": "See you tomorrow.",
+      "part_of_speech": "phrase",
+      "register": "neutral",
+      "plural_form": null,
+      "usage_note": "Often answered with 'En jango, si Alla jaɓi.'"
+    },
+    {
+      "id": "v12",
+      "competence": 1,
+      "category": "taking_leave",
+      "pular": "Si Alla jaɓi.",
+      "ascii": "Si Alla jabi.",
+      "english": "God willing.",
+      "part_of_speech": "phrase",
+      "register": "neutral",
+      "plural_form": null,
+      "usage_note": "Literally 'If God accepts'; standard caveat when making plans or saying goodbye."
+    },
+    {
+      "id": "v13",
+      "competence": 1,
+      "category": "polite_words",
+      "pular": "Hii-hi.",
+      "ascii": "Hii-hi.",
+      "english": "Yes.",
+      "part_of_speech": "interjection",
+      "register": "neutral",
+      "plural_form": null,
+      "usage_note": "Standard affirmative in Fuuta Jallon; 'Eyyo.' is also heard in northern Fuuta Jallon and Senegal."
+    },
+    {
+      "id": "v14",
+      "competence": 1,
+      "category": "polite_words",
+      "pular": "O'o.",
+      "ascii": "O'o.",
+      "english": "No.",
+      "part_of_speech": "interjection",
+      "register": "neutral",
+      "plural_form": null,
+      "usage_note": "Also 'O'owooye.' Distinguish the crisp glottal stop in 'O'o' (no) from the drawn-out intonation of 'Oo-o!' (bye!)."
+    },
+    {
+      "id": "v15",
+      "competence": 1,
+      "category": "beginner_phrases",
+      "pular": "Miɗo ekitaade.",
+      "ascii": "Mido ekitaade.",
+      "english": "I am learning.",
+      "part_of_speech": "phrase",
+      "register": "neutral",
+      "plural_form": null,
+      "usage_note": "Essential beginner phrase when people comment on your Pular."
+    },
+    {
+      "id": "v16",
+      "competence": 2,
+      "category": "introductions_phrasebook",
+      "pular": "Ko honno inneteɗa?",
+      "ascii": "Ko honno inneteda?",
+      "english": "What is your name?",
+      "part_of_speech": "phrase",
+      "register": "familiar_singular",
+      "plural_form": null,
+      "usage_note": "Reply with 'Ko [Name] mi innete.' Synonym: 'Ko honno wi'eteɗa?' or short form 'Innde maa?'."
+    },
+    {
+      "id": "v17",
+      "competence": 2,
+      "category": "introductions_phrasebook",
+      "pular": "Ko honno yetteteɗa?",
+      "ascii": "Ko honno yetteteda?",
+      "english": "What is your last name?",
+      "part_of_speech": "phrase",
+      "register": "familiar_singular",
+      "plural_form": null,
+      "usage_note": "Short form: 'Yettoore maa?'. Reply with 'Ko [Last Name] mi yettetee.'."
+    },
+    {
+      "id": "v18",
+      "competence": 2,
+      "category": "introductions_phrasebook",
+      "pular": "Ko honto iwuɗaa?",
+      "ascii": "Ko honto iwudaa?",
+      "english": "Where do you come from?",
+      "part_of_speech": "phrase",
+      "register": "familiar_singular",
+      "plural_form": null,
+      "usage_note": "Reply with 'Ko [Place] mi iwi.' (e.g., 'Ko Amerik mi iwi.')."
+    },
+    {
+      "id": "v19",
+      "competence": 2,
+      "category": "introductions_phrasebook",
+      "pular": "Ko mo a honto?",
+      "ascii": "Ko mo a honto?",
+      "english": "Where are you from?",
+      "part_of_speech": "phrase",
+      "register": "familiar_singular",
+      "plural_form": null,
+      "usage_note": "Reply with 'Ko mo mi [Place].' (e.g., 'Ko mo mi Labe.' or 'Ko mo mi Dakar.')."
+    },
+    {
+      "id": "v20",
+      "competence": 2,
+      "category": "introductions_phrasebook",
+      "pular": "Ko honɗun gollataa?",
+      "ascii": "Ko hondun gollataa?",
+      "english": "What do you do? (What is your work?)",
+      "part_of_speech": "phrase",
+      "register": "familiar_singular",
+      "plural_form": null,
+      "usage_note": "Reply with 'Ko mi [occupation].' (e.g., 'Ko mi jannoowo.')."
+    },
+    {
+      "id": "v21",
+      "competence": 2,
+      "category": "introductions_phrasebook",
+      "pular": "Ko honto hoɗuɗaa?",
+      "ascii": "Ko honto hodudaa?",
+      "english": "Where do you live?",
+      "part_of_speech": "phrase",
+      "register": "familiar_singular",
+      "plural_form": null,
+      "usage_note": "Reply with 'Ko [Place] mi hoɗi.' (e.g., 'Ko Maamu mi hoɗi.')."
+    },
+    {
+      "id": "v22",
+      "competence": 2,
+      "category": "key_words",
+      "pular": "wonaa",
+      "ascii": "wonaa",
+      "english": "is not / am not (negation of ko)",
+      "part_of_speech": "particle",
+      "register": "neutral",
+      "plural_form": null,
+      "usage_note": "Negates equative sentences formed with 'ko' (e.g., 'Wonaa mi Faranseejo.' — 'I am not French.'). Also heard as wanaa, hinaa, or naa."
+    },
+    {
+      "id": "v23",
+      "competence": 2,
+      "category": "occupations",
+      "pular": "jannoowo",
+      "ascii": "jannoowo",
+      "english": "teacher",
+      "part_of_speech": "noun",
+      "register": "neutral",
+      "plural_form": "jannooɓe",
+      "usage_note": "Notice the double 'n' (jannoowo = teacher) contrasting with single 'n' (jangoowo = student)."
+    },
+    {
+      "id": "v24",
+      "competence": 2,
+      "category": "occupations",
+      "pular": "jangoowo",
+      "ascii": "jangoowo",
+      "english": "student",
+      "part_of_speech": "noun",
+      "register": "neutral",
+      "plural_form": "jangooɓe",
+      "usage_note": "Synonym: 'lekkoljo' (pl. 'lekkolɓe')."
+    },
+    {
+      "id": "v25",
+      "competence": 2,
+      "category": "occupations",
+      "pular": "dofturjo",
+      "ascii": "dofturjo",
+      "english": "doctor",
+      "part_of_speech": "noun",
+      "register": "neutral",
+      "plural_form": "dofturɓe",
+      "usage_note": "Related Pular word for healer/doctor: 'ñawndoowo' (pl. 'ñawndooɓe')."
+    },
+    {
+      "id": "v26",
+      "competence": 2,
+      "category": "occupations",
+      "pular": "njulaajo",
+      "ascii": "njulaajo",
+      "english": "merchant",
+      "part_of_speech": "noun",
+      "register": "neutral",
+      "plural_form": "njulaaɓe",
+      "usage_note": "Featured in the taxi-park dialogue; related word 'yeeyoowo' means seller."
+    },
+    {
+      "id": "v27",
+      "competence": 2,
+      "category": "occupations",
+      "pular": "remoowo",
+      "ascii": "remoowo",
+      "english": "farmer",
+      "part_of_speech": "noun",
+      "register": "neutral",
+      "plural_form": "remooɓe",
+      "usage_note": "Common occupation across the Fuuta Jallon."
+    },
+    {
+      "id": "v28",
+      "competence": 2,
+      "category": "nationalities_ethnicities",
+      "pular": "Pullo",
+      "ascii": "Pullo",
+      "english": "Peuhl / Fula person",
+      "part_of_speech": "noun",
+      "register": "neutral",
+      "plural_form": "Fulɓe",
+      "usage_note": "'Pullo-Fuuta' (pl. 'Fulɓe-Fuuta') specifically refers to a Guinean Peuhl from the Fuuta Jallon."
+    },
+    {
+      "id": "v29",
+      "competence": 2,
+      "category": "social_roles",
+      "pular": "gorko",
+      "ascii": "gorko",
+      "english": "man",
+      "part_of_speech": "noun",
+      "register": "neutral",
+      "plural_form": "worɓe",
+      "usage_note": "Irregular initial consonant alternation from singular 'g-' to plural 'w-'."
+    },
+    {
+      "id": "v30",
+      "competence": 2,
+      "category": "social_roles",
+      "pular": "debbo",
+      "ascii": "debbo",
+      "english": "woman",
+      "part_of_speech": "noun",
+      "register": "neutral",
+      "plural_form": "rewɓe",
+      "usage_note": "Irregular initial consonant alternation from singular 'd-' to plural 'r-'."
+    },
+    {
+      "id": "v31",
+      "competence": 3,
+      "category": "family_members",
+      "pular": "baaba",
+      "ascii": "baaba",
+      "english": "father",
+      "part_of_speech": "noun",
+      "register": "neutral",
+      "plural_form": "baabiraaɓe",
+      "usage_note": "Respectful form: 'ben' (or 'ɓen'). Father's older brother is 'ɓen mawɗo'."
+    },
+    {
+      "id": "v32",
+      "competence": 3,
+      "category": "family_members",
+      "pular": "neene",
+      "ascii": "neene",
+      "english": "mother",
+      "part_of_speech": "noun",
+      "register": "neutral",
+      "plural_form": "neeniraaɓe",
+      "usage_note": "Respectful form: 'yuuma' / 'yumma'. Use 3rd-person plural 'hiɓe' when referring to a mother or father respectfully."
+    },
+    {
+      "id": "v33",
+      "competence": 3,
+      "category": "family_members",
+      "pular": "koto",
+      "ascii": "koto",
+      "english": "older brother",
+      "part_of_speech": "noun",
+      "register": "neutral",
+      "plural_form": "kotiraaɓe",
+      "usage_note": "Singular full form is 'kotiraawo'; generic/address form is 'koto'."
+    },
+    {
+      "id": "v34",
+      "competence": 3,
+      "category": "family_members",
+      "pular": "jaaja",
+      "ascii": "jaaja",
+      "english": "older sister",
+      "part_of_speech": "noun",
+      "register": "neutral",
+      "plural_form": "jaajiraaɓe",
+      "usage_note": "Example: 'Adama Hawa ko jaaja an.' ('Adama Hawa is my older sister.')."
+    },
+    {
+      "id": "v35",
+      "competence": 3,
+      "category": "family_members",
+      "pular": "miñan",
+      "ascii": "minan",
+      "english": "younger brother or sister",
+      "part_of_speech": "noun",
+      "register": "neutral",
+      "plural_form": "miñiraaɓe",
+      "usage_note": "Gender-neutral term for any younger sibling."
+    },
+    {
+      "id": "v36",
+      "competence": 3,
+      "category": "family_members",
+      "pular": "kaawu",
+      "ascii": "kaawu",
+      "english": "mother's brother (maternal uncle)",
+      "part_of_speech": "noun",
+      "register": "neutral",
+      "plural_form": "kaawiraaɓe",
+      "usage_note": "Distinct from paternal uncles: 'bappa' (father's younger brother) and 'ɓen mawɗo' (father's older brother)."
+    },
+    {
+      "id": "v37",
+      "competence": 3,
+      "category": "family_members",
+      "pular": "bappa",
+      "ascii": "bappa",
+      "english": "father's younger brother (paternal uncle)",
+      "part_of_speech": "noun",
+      "register": "neutral",
+      "plural_form": "bappiraaɓe",
+      "usage_note": "Father's sister (paternal aunt) is 'yaaye' / 'yaaya'."
+    },
+    {
+      "id": "v38",
+      "competence": 3,
+      "category": "family_members",
+      "pular": "soro",
+      "ascii": "soro",
+      "english": "grandfather",
+      "part_of_speech": "noun",
+      "register": "neutral",
+      "plural_form": null,
+      "usage_note": "Pairs with 'pati' (grandmother) and 'taanira' (grandchild)."
+    },
+    {
+      "id": "v39",
+      "competence": 3,
+      "category": "family_members",
+      "pular": "pati",
+      "ascii": "pati",
+      "english": "grandmother",
+      "part_of_speech": "noun",
+      "register": "neutral",
+      "plural_form": null,
+      "usage_note": "Used for both maternal and paternal grandmothers."
+    },
+    {
+      "id": "v40",
+      "competence": 3,
+      "category": "family_members",
+      "pular": "ɓeyngu",
+      "ascii": "beyngu",
+      "english": "wife",
+      "part_of_speech": "noun",
+      "register": "neutral",
+      "plural_form": "ɓeynguuli",
+      "usage_note": "Related to 'ɓeynguure nden' (nuclear family: wives and children). Co-wife is 'siinaa'."
+    },
+    {
+      "id": "v41",
+      "competence": 3,
+      "category": "family_members",
+      "pular": "moodi",
+      "ascii": "moodi",
+      "english": "husband",
+      "part_of_speech": "noun",
+      "register": "neutral",
+      "plural_form": null,
+      "usage_note": "Also used as a respectful title for a learned or older man (e.g., Moodi Aliu)."
+    },
+    {
+      "id": "v42",
+      "competence": 3,
+      "category": "family_members",
+      "pular": "biɗɗo",
+      "ascii": "biddo",
+      "english": "child (son, daughter, nephew, etc.)",
+      "part_of_speech": "noun",
+      "register": "neutral",
+      "plural_form": "ɓiɓɓe",
+      "usage_note": "Refers to offspring/descendants (unlike 'paykun', which refers to a young child by age)."
+    },
+    {
+      "id": "v43",
+      "competence": 3,
+      "category": "family_members",
+      "pular": "neenegooto",
+      "ascii": "neenegooto",
+      "english": "full sibling (same mother, same father)",
+      "part_of_speech": "noun",
+      "register": "neutral",
+      "plural_form": "neenegotooɓe",
+      "usage_note": "Contrasts with 'baabagooto' (pl. 'baabagotooɓe'), meaning half-sibling (same father, different mothers)."
+    },
+    {
+      "id": "v44",
+      "competence": 3,
+      "category": "family_phrasebook",
+      "pular": "Ko hombo nii?",
+      "ascii": "Ko hombo nii?",
+      "english": "Who is that?",
+      "part_of_speech": "phrase",
+      "register": "neutral",
+      "plural_form": null,
+      "usage_note": "Reply with 'Ko [Name/Relation] nii.' (e.g., 'Ko koto an nii.' — 'That is my older brother.')."
+    },
+    {
+      "id": "v45",
+      "competence": 3,
+      "category": "family_phrasebook",
+      "pular": "Ko duuɓi jelu maruɗaa?",
+      "ascii": "Ko duubi jelu marudaa?",
+      "english": "How old are you?",
+      "part_of_speech": "phrase",
+      "register": "familiar_singular",
+      "plural_form": null,
+      "usage_note": "Literally 'How many years do you have?'. Reply: 'Ko duuɓi [number] mi mari.'."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex01",
+      "competence": 1,
+      "type": "multiple_choice",
+      "skill_focus": "pronunciation_minimal_pairs",
+      "source_reference": "Competence 1, Exercise A (Sounds like..., #6)",
+      "prompt": "Vowel length and consonant stress change meaning in Pular. Which word in this minimal triplet means 'there is none'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alla"
+        },
+        {
+          "id": "b",
+          "text": "aala"
+        },
+        {
+          "id": "c",
+          "text": "alaa"
+        }
+      ],
+      "answer": "c",
+      "explanation": "'Alla' (stressed ll) means God, 'aala' (long initial aa) means tool, and 'alaa' (long final aa) means 'there is none' (as in 'Tanna alaa?')."
+    },
+    {
+      "id": "ex02",
+      "competence": 1,
+      "type": "multiple_choice",
+      "skill_focus": "pronunciation_implosives",
+      "source_reference": "Competence 1, Exercise A (Sounds like..., #11)",
+      "prompt": "How does the implosive consonant 'ƴ' change the meaning between 'yettugol' and 'ƴettugol'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "yettugol = to greet; ƴettugol = to take"
+        },
+        {
+          "id": "b",
+          "text": "yettugol = to take; ƴettugol = to greet"
+        },
+        {
+          "id": "c",
+          "text": "yettugol = to wait; ƴettugol = to climb"
+        },
+        {
+          "id": "d",
+          "text": "They are spelling variants with the same meaning"
+        }
+      ],
+      "answer": "a",
+      "explanation": "Regular 'y' in 'yettugol' means 'to greet / thank', whereas implosive 'ƴ' in 'ƴettugol' means 'to take'."
+    },
+    {
+      "id": "ex03",
+      "competence": 1,
+      "type": "matching",
+      "skill_focus": "vocabulary_recognition",
+      "source_reference": "Competence 1, Exercise B (Matching)",
+      "prompt": "Match each Pular greeting or leave-taking expression with its closest English equivalent.",
+      "pairs": [
+        {
+          "left": "En ontuma.",
+          "right": "See you later."
+        },
+        {
+          "left": "Jam tun.",
+          "right": "Peace only."
+        },
+        {
+          "left": "Tanna alaa?",
+          "right": "Is everything OK?"
+        },
+        {
+          "left": "A ñalli e jam?",
+          "right": "Have you spent the day in peace?"
+        },
+        {
+          "left": "On belike e jam?",
+          "right": "Did you sleep well?"
+        },
+        {
+          "left": "Si Alla jaɓi.",
+          "right": "God willing."
+        }
+      ],
+      "explanation": "These six phrases cover the complete arc of a Pular greeting: opening check-in, peace reply, time-of-day inquiry, and farewell."
+    },
+    {
+      "id": "ex04",
+      "competence": 1,
+      "type": "translation",
+      "skill_focus": "respectful_greetings",
+      "source_reference": "Competence 1, Exercise C (Translation drill, #1)",
+      "prompt": "Translate into respectful Pular: 'Good morning.' (Literally: 'Did you sleep in peace?')",
+      "direction": "en_to_pular",
+      "answer": "On belike e jam?",
+      "accepted_answers": [
+        "On belike e jam?",
+        "On ɓelike e jam?",
+        "On belike e jam"
+      ],
+      "explanation": "'On belike e jam?' uses both the respectful plural pronoun 'on' and the respect verb 'ɓelagol' (to sleep)."
+    },
+    {
+      "id": "ex05",
+      "competence": 1,
+      "type": "translation",
+      "skill_focus": "conversational_greetings",
+      "source_reference": "Competence 1, Exercise C (Translation drill, #3)",
+      "prompt": "Translate into Pular: 'How is work going?'",
+      "direction": "en_to_pular",
+      "answer": "Golle ɗen no marsude?",
+      "accepted_answers": [
+        "Golle ɗen no marsude?",
+        "Golle den no marsude?",
+        "Golle ɗen?",
+        "Golle den?"
+      ],
+      "explanation": "From Dialogue 2 ('Salminagol sukaajo'): 'Golle ɗen no marsude?' asks how work is going; the short form 'Golle ɗen?' is also used."
+    },
+    {
+      "id": "ex06",
+      "competence": 1,
+      "type": "fill_in_blank",
+      "skill_focus": "dialogue_completion",
+      "source_reference": "Competence 1, Exercise D (Fill in the blanks)",
+      "prompt": "Fill in the missing words to complete this greeting exchange.",
+      "template": "A: A jaraama.\nB: A jaraama. Tanna {{1}}?\nA: {{2}} tun. An le?\nB: Jam tun. Ɓeyngure nden {{3}} e jam?\nA: Jam tun. Golle ɗen no {{4}}?\nB: No marsude seeɗa. Awa, en ñalorma.\nA: Awa, en ñalorma, si {{5}} {{6}}.",
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "alaa",
+          "accepted": [
+            "alaa"
+          ]
+        },
+        {
+          "index": 2,
+          "answer": "Jam",
+          "accepted": [
+            "Jam",
+            "jam"
+          ]
+        },
+        {
+          "index": 3,
+          "answer": "no",
+          "accepted": [
+            "no"
+          ]
+        },
+        {
+          "index": 4,
+          "answer": "marsude",
+          "accepted": [
+            "marsude"
+          ]
+        },
+        {
+          "index": 5,
+          "answer": "Alla",
+          "accepted": [
+            "Alla",
+            "alla"
+          ]
+        },
+        {
+          "index": 6,
+          "answer": "jaɓi",
+          "accepted": [
+            "jaɓi",
+            "jabi"
+          ]
+        }
+      ],
+      "explanation": "Standard Pular exchanges pair 'Tanna alaa?' with 'Jam tun.', use 'no' for stative/locative predicates ('no e jam', 'no marsude'), and close future plans with 'si Alla jaɓi'."
+    },
+    {
+      "id": "ex07",
+      "competence": 1,
+      "type": "multiple_choice",
+      "skill_focus": "cultural_etiquette",
+      "source_reference": "Competence 1, Cultural Notes (Respect & Body language)",
+      "prompt": "You are greeting an elderly man in the village. Which greeting and body language are most respectful?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Say 'A jaraama, mawɗo!' while maintaining firm, direct eye contact."
+        },
+        {
+          "id": "b",
+          "text": "Say 'On jaraama, mawɓe.' while shaking with both hands (or holding your forearm) and looking slightly down or away."
+        },
+        {
+          "id": "c",
+          "text": "Say 'No wa'i?' and wave from across the path without slowing down."
+        },
+        {
+          "id": "d",
+          "text": "Say 'Oo-o!' and shake briskly with your left hand."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Elders are addressed in the plural ('On jaraama, mawɓe.'). Supporting your handshake with your other hand and averting direct eye contact show deference in Fulɓe culture."
+    },
+    {
+      "id": "ex08",
+      "competence": 2,
+      "type": "fill_in_blank",
+      "skill_focus": "introductions_dialogue",
+      "source_reference": "Competence 2, Exercise A (Getting to know you)",
+      "prompt": "Complete the introductory conversation between Susan and Alfa.",
+      "template": "Alfa: Ko honno {{1}}?\nSusan: Ko Susan mi {{2}}. An le?\nAlfa: Ko Alfa mi innete. Ko a Amerikeenjo?\nSusan: Hii-hi, {{3}} mi Amerikeenjo.\nAlfa: Ko a jannoowo?\nSusan: O'o, {{4}} mi jannoowo. Ko mi dofturjo.",
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "inneteɗa",
+          "accepted": [
+            "inneteɗa",
+            "inneteda",
+            "inneteɗaa",
+            "innetedaa"
+          ]
+        },
+        {
+          "index": 2,
+          "answer": "innete",
+          "accepted": [
+            "innete",
+            "innetee"
+          ]
+        },
+        {
+          "index": 3,
+          "answer": "ko",
+          "accepted": [
+            "ko",
+            "Ko"
+          ]
+        },
+        {
+          "index": 4,
+          "answer": "wonaa",
+          "accepted": [
+            "wonaa",
+            "wanaa",
+            "hinaa",
+            "naa"
+          ]
+        }
+      ],
+      "explanation": "Use 'ko' for affirmative identification ('ko mi Amerikeenjo') and 'wonaa' to negate it ('wonaa mi jannoowo')."
+    },
+    {
+      "id": "ex09",
+      "competence": 2,
+      "type": "affirmative_negative",
+      "skill_focus": "ko_wonaa_pronouns",
+      "source_reference": "Competence 2, Exercise B (Who are you?, #3)",
+      "prompt": "Answer the question first in the affirmative, then in the negative (switching the pronoun correctly): 'An, ko a Pullo-Fuuta?'",
+      "affirmative_answer": "Hii-hi, ko mi Pullo-Fuuta.",
+      "negative_answer": "O'o, wonaa mi Pullo-Fuuta.",
+      "accepted_affirmative": [
+        "Hii-hi, ko mi Pullo-Fuuta.",
+        "Hii-hi, ko mi Pullo-Fuuta",
+        "Eyyo, ko mi Pullo-Fuuta."
+      ],
+      "accepted_negative": [
+        "O'o, wonaa mi Pullo-Fuuta.",
+        "O'o, wonaa mi Pullo-Fuuta",
+        "O'owooye, wonaa mi Pullo-Fuuta."
+      ],
+      "explanation": "A question addressed to 'an / a' (you, singular) is answered with 'mi' (I). 'ko' flips to 'wonaa' in the negative."
+    },
+    {
+      "id": "ex10",
+      "competence": 2,
+      "type": "affirmative_negative",
+      "skill_focus": "exclusive_we_pronoun",
+      "source_reference": "Competence 2, Exercise B (Who are you?, #5)",
+      "prompt": "Answer in the affirmative and negative (speaking for your group to an outsider): 'Onon, ko on Amerikeenɓe?'",
+      "affirmative_answer": "Hii-hi, ko men Amerikeenɓe.",
+      "negative_answer": "O'o, wonaa men Amerikeenɓe.",
+      "accepted_affirmative": [
+        "Hii-hi, ko men Amerikeenɓe.",
+        "Hii-hi, ko men Amerikenɓe.",
+        "Hii-hi, ko men Amerikeenbe."
+      ],
+      "accepted_negative": [
+        "O'o, wonaa men Amerikeenɓe.",
+        "O'o, wonaa men Amerikenɓe.",
+        "O'o, wonaa men Amerikeenbe."
+      ],
+      "explanation": "Because the speaker is answering 'you all' (onon/on) and excluding the person who asked the question, the exclusive 'we' pronoun 'men' is required."
+    },
+    {
+      "id": "ex11",
+      "competence": 2,
+      "type": "multiple_choice",
+      "skill_focus": "inclusive_vs_exclusive_we",
+      "source_reference": "Competence 2, Grammar (Personal pronouns) & Exercise F (#6)",
+      "prompt": "You and your American colleague are speaking to a Guinean host. How do you say 'We are from America'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ko Amerik en iwi."
+        },
+        {
+          "id": "b",
+          "text": "Ko Amerik men iwi."
+        },
+        {
+          "id": "c",
+          "text": "Ko Amerik on iwi."
+        },
+        {
+          "id": "d",
+          "text": "Ko Amerik ɓe iwi."
+        }
+      ],
+      "answer": "b",
+      "explanation": "Use exclusive 'men' because the Guinean listener is NOT included in 'we'. Inclusive 'en' would mean 'you and I both'."
+    },
+    {
+      "id": "ex12",
+      "competence": 2,
+      "type": "matching",
+      "skill_focus": "qa_comprehension",
+      "source_reference": "Competence 2, Exercise E (Matching)",
+      "prompt": "Connect each Pular introduction question with its matching answer.",
+      "pairs": [
+        {
+          "left": "Ko honno inneteɗaa?",
+          "right": "Ko Saliu mi innete."
+        },
+        {
+          "left": "Ko honno yetteteɗaa?",
+          "right": "Ko Diallo mi yettete."
+        },
+        {
+          "left": "Ko mo a honto?",
+          "right": "Ko mo mi Labe."
+        },
+        {
+          "left": "An, ko a jannoowo?",
+          "right": "O'o, ko mi tutoowo leɗɗe."
+        },
+        {
+          "left": "A jombaama?",
+          "right": "O'o, mi jombaaka taho."
+        },
+        {
+          "left": "A jombii?",
+          "right": "Hii-hi, mi jombii."
+        }
+      ],
+      "explanation": "Notice how each question mirrors the verb or structure in the answer: inneteɗaa -> innete, yetteteɗaa -> yettete, jombaama -> jombaaka (for women), jombii -> jombii (for men)."
+    },
+    {
+      "id": "ex13",
+      "competence": 2,
+      "type": "translation",
+      "skill_focus": "negation_with_wonaa",
+      "source_reference": "Competence 2, Exercise F (Translation drill, #4)",
+      "prompt": "Translate into Pular: 'I am not a doctor.'",
+      "direction": "en_to_pular",
+      "answer": "Wonaa mi dofturjo.",
+      "accepted_answers": [
+        "Wonaa mi dofturjo.",
+        "Wonaa mi dofturjo",
+        "Wonaa mi ñawndoowo.",
+        "Min, wonaa mi dofturjo."
+      ],
+      "explanation": "Replace 'ko' with 'wonaa' before the subject pronoun 'mi' and the singular noun 'dofturjo' (doctor)."
+    },
+    {
+      "id": "ex14",
+      "competence": 2,
+      "type": "translation",
+      "skill_focus": "plural_pronouns_and_nouns",
+      "source_reference": "Competence 2, Exercise F (Translation drill, #7)",
+      "prompt": "Translate into Pular: 'They are teachers.'",
+      "direction": "en_to_pular",
+      "answer": "Ko ɓe jannooɓe.",
+      "accepted_answers": [
+        "Ko ɓe jannooɓe.",
+        "Ko be jannoobe.",
+        "Ko ɓe jannooɓe",
+        "Kanɓe, ko ɓe jannooɓe."
+      ],
+      "explanation": "Both the pronoun ('ɓe' = they) and the occupation noun ('jannooɓe' = teachers, plural of 'jannoowo') take the human plural form."
+    },
+    {
+      "id": "ex15",
+      "competence": 2,
+      "type": "multiple_choice",
+      "skill_focus": "marriage_expressions_and_culture",
+      "source_reference": "Competence 2, Vocabulary (C'est madame... ou mademoiselle?)",
+      "prompt": "Which pair correctly asks a WOMAN if she is married and gives her negative response ('No, I am not married')?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A jombii? — O'o, mi jombaali."
+        },
+        {
+          "id": "b",
+          "text": "A jombaama? — O'o, mi jombaaka."
+        },
+        {
+          "id": "c",
+          "text": "A jombaama? — O'o, mi jombaali."
+        },
+        {
+          "id": "d",
+          "text": "A jombii? — O'o, mi jombaaka."
+        }
+      ],
+      "answer": "b",
+      "explanation": "In Pular, marriage verbs use the active voice for men ('A jombii?' / 'Mi jombaali.') and the passive voice for women ('A jombaama?' / 'Mi jombaaka.')."
+    },
+    {
+      "id": "ex16",
+      "competence": 3,
+      "type": "translation",
+      "skill_focus": "numbers_up_to_99",
+      "source_reference": "Competence 3, Exercise A (Fun with numbers, part 1, #4)",
+      "prompt": "Write the number 29 in Pular (using the standard counting form for things/years).",
+      "direction": "en_to_pular",
+      "answer": "nogay e jeenay",
+      "accepted_answers": [
+        "nogay e jeenay",
+        "nogay e jeenay."
+      ],
+      "explanation": "'nogay' is 20, 'e' links tens and units, and 'jeenay' is 9."
+    },
+    {
+      "id": "ex17",
+      "competence": 3,
+      "type": "multiple_choice",
+      "skill_focus": "counting_people_vs_things",
+      "source_reference": "Competence 3, Vocabulary (Numbers Up to 99)",
+      "prompt": "Pular uses distinct number forms when counting people versus things or time. Which pair is correct for 'three Americans' and 'three years'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amerikenɓe tati / duuɓi tato"
+        },
+        {
+          "id": "b",
+          "text": "Amerikenɓe tato / duuɓi tati"
+        },
+        {
+          "id": "c",
+          "text": "Amerikenɓe tati / duuɓi tati"
+        },
+        {
+          "id": "d",
+          "text": "Amerikenɓe tato / duuɓi tato"
+        }
+      ],
+      "answer": "b",
+      "explanation": "Counting people takes the '-o' ending ('tato', and 'njelo' for 'how many'), while counting things, animals, or years uses 'tati' (and 'jelu' for 'how many')."
+    },
+    {
+      "id": "ex18",
+      "competence": 3,
+      "type": "matching",
+      "skill_focus": "kinship_terminology",
+      "source_reference": "Competence 3, Vocabulary (Family Members) & Exercise D (Family ties)",
+      "prompt": "Match each Pular family relationship term with its exact English meaning.",
+      "pairs": [
+        {
+          "left": "koto",
+          "right": "older brother"
+        },
+        {
+          "left": "miñan",
+          "right": "younger brother or sister"
+        },
+        {
+          "left": "kaawu",
+          "right": "mother's brother"
+        },
+        {
+          "left": "yaaye",
+          "right": "father's sister"
+        },
+        {
+          "left": "esiraawo",
+          "right": "in-law"
+        },
+        {
+          "left": "siinaa",
+          "right": "co-wife"
+        }
+      ],
+      "explanation": "Fulɓe kinship terms distinguish age among siblings (koto/jaaja vs. miñan) and maternal vs. paternal uncles and aunts (kaawu vs. bappa/yaaye)."
+    },
+    {
+      "id": "ex19",
+      "competence": 3,
+      "type": "multiple_choice",
+      "skill_focus": "respectful_family_greetings",
+      "source_reference": "Competence 3, Exercise B (How's the wife and kids?, #5 & #10)",
+      "prompt": "Someone asks 'Honno neene Sulayman waɗi?' ('How is Sulayman's mother doing?'). Which response uses the proper respectful pronoun?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hiɓe e jam."
+        },
+        {
+          "id": "b",
+          "text": "Hiɗa e jam."
+        },
+        {
+          "id": "c",
+          "text": "Miɗo e jam."
+        },
+        {
+          "id": "d",
+          "text": "Ko ɓe defoowo."
+        }
+      ],
+      "answer": "a",
+      "explanation": "When referring to a parent or elder in the 3rd person, Pular uses the plural pronoun 'hiɓe' ('they are well') out of respect rather than singular 'himo'."
+    },
+    {
+      "id": "ex20",
+      "competence": 3,
+      "type": "multiple_choice",
+      "skill_focus": "reported_speech_woo",
+      "source_reference": "Competence 3, Key Words (woo)",
+      "prompt": "How do you report what someone else said or what you heard: '(They say) he has twenty children'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ko himo mari ɓiɓɓe nogay."
+        },
+        {
+          "id": "b",
+          "text": "Woo himo mari ɓiɓɓe nogayo."
+        },
+        {
+          "id": "c",
+          "text": "Wonaa himo mari ɓiɓɓe nogayo."
+        },
+        {
+          "id": "d",
+          "text": "Kadi himo mari ɓiɓɓe nogay."
+        }
+      ],
+      "answer": "b",
+      "explanation": "The particle 'woo' precedes reported speech or hearsay ('he says / they say'), and 'nogayo' is the people-counting form of 20."
+    },
+    {
+      "id": "ex21",
+      "competence": 3,
+      "type": "fill_in_blank",
+      "skill_focus": "family_dialogue_and_possessives",
+      "source_reference": "Competence 3, Exercise H (Fill in the blanks)",
+      "prompt": "Fill in the blanks to complete this conversation about family members.",
+      "template": "A: Ko {{1}} ɓen maa innetee?\nB: Ɓen an ko Aamadu innetee.\nA: Ko honno neene {{2}} innetee?\nB: Yumma {{3}} ko Aysata innetee.\nA: Ko kotiraaɓe {{4}} maruɗaa?\nB: Ko kotiraawo {{5}} mi mari.",
+      "blanks": [
+        {
+          "index": 1,
+          "answer": "honno",
+          "accepted": [
+            "honno"
+          ]
+        },
+        {
+          "index": 2,
+          "answer": "maa",
+          "accepted": [
+            "maa"
+          ]
+        },
+        {
+          "index": 3,
+          "answer": "an",
+          "accepted": [
+            "an"
+          ]
+        },
+        {
+          "index": 4,
+          "answer": "njelo",
+          "accepted": [
+            "njelo"
+          ]
+        },
+        {
+          "index": 5,
+          "answer": "gooto",
+          "accepted": [
+            "gooto"
+          ]
+        }
+      ],
+      "explanation": "Possessive pronouns follow the noun ('neene maa' = your mother, 'yumma an' = my mother); 'njelo' asks 'how many' for people, and 'gooto' means 'one' person."
+    },
+    {
+      "id": "ex22",
+      "competence": 3,
+      "type": "translation",
+      "skill_focus": "expressing_age_and_numbers",
+      "source_reference": "Competence 3, Exercise J (Translation drill, #11)",
+      "prompt": "Translate into Pular: 'I am twenty-eight years old.'",
+      "direction": "en_to_pular",
+      "answer": "Ko duuɓi nogay e jeetati mi mari.",
+      "accepted_answers": [
+        "Ko duuɓi nogay e jeetati mi mari.",
+        "Ko duubi nogay e jeetati mi mari.",
+        "Ko duuɓi nogay e jeetati mi mari",
+        "Miɗo mari duuɓi nogay e jeetati."
+      ],
+      "explanation": "Age is expressed with 'duuɓi' (years) + the things-counting number ('nogay e jeetati' = 28) + 'marugol' (to have): literally 'It is 28 years that I have.'"
+    },
+    {
+      "id": "ex23",
+      "competence": 3,
+      "type": "translation",
+      "skill_focus": "possessive_with_names",
+      "source_reference": "Competence 3, Exercise J (Translation drill, #8)",
+      "prompt": "Translate into Pular: 'Karim's mother is a cook.'",
+      "direction": "en_to_pular",
+      "answer": "Neene Karim ko defoowo.",
+      "accepted_answers": [
+        "Neene Karim ko defoowo.",
+        "Neene Karim ko defoowo",
+        "Ko defoowo neene Karim woni."
+      ],
+      "explanation": "To show possession by a named person, place the name right after the noun ('Neene Karim' = Karim's mother), then link to the occupation with 'ko' ('ko defoowo')."
+    }
+  ]
+}
