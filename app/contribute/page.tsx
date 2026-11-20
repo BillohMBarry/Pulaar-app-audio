@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 import type { Metadata } from "next";
+import { connection } from "next/server";
 import { Skeleton } from "@/components/ui/skeleton";
 import { ContributorRecorderShell } from "@/components/recorder/contributor-recorder-shell";
 import { InviteSessionGate } from "@/components/recorder/invite-session-gate";
@@ -26,6 +27,8 @@ interface ContributePageProps {
 }
 
 async function ContributeContent({ searchParams }: ContributePageProps) {
+  await connection();
+
   const params = await searchParams;
   const rawToken = Array.isArray(params.token) ? params.token[0] : params.token;
   const rawCompetence = Array.isArray(params.competence)
