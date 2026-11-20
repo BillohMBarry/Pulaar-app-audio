@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { redirect } from "next/navigation";
+import { connection } from "next/server";
 import { ShieldAlert } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import {
@@ -44,6 +45,8 @@ async function loadAdminDashboardData() {
 }
 
 async function AdminContent() {
+  await connection();
+
   const supabase = await createClient();
   const { data: userData } = await supabase.auth.getUser();
 
