@@ -1,6 +1,6 @@
 # Miɗo Waawi Pular!
 
-Miɗo Waawi Pular! is a mobile-first Pular (Fuuta Jallon) vocabulary and audio application. It provides:
+Miɗo Waawi Pular! is a mobile-first contribution app for collecting clear, native Pular (Fuuta Jallon) audio recordings to support Pular learning applications and improve audio where AI-generated speech is not yet clear or accurate.
 
 - A searchable learner library for Competences 1–3
 - Optional native-speaker playback for approved recordings
