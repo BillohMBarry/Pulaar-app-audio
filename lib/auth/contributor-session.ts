@@ -1,5 +1,6 @@
 import crypto from "node:crypto";
 import { cookies } from "next/headers";
+import { connection } from "next/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import type { CompetenceNumber, ContributorSessionInfo } from "@/types/audio";
 
@@ -93,6 +94,7 @@ export function getContributorCookieOptions(expiresAt: Date) {
  * revoked or expired links take effect immediately.
  */
 export async function getVerifiedContributorSession(): Promise<ContributorSessionInfo | null> {
+  await connection();
   const cookieStore = await cookies();
   const rawCookie = cookieStore.get(CONTRIBUTOR_COOKIE_NAME)?.value;
   const payload = verifyContributorCookieValue(rawCookie);
