@@ -69,7 +69,7 @@
             },
             {
               "speaker": "Elder",
-              "pular": "En jango, si Alla jaɓi.",
+              "pular": "En jango, si Allah jaɓi.",
               "english": "See you tomorrow, God willing."
             }
           ]
@@ -147,7 +147,7 @@
         },
         {
           "title": "The Will of God",
-          "summary": "Si Alla jaɓi ('God willing', literally 'If God accepts') accompanies virtually any statement or arrangement about the future."
+          "summary": "Si Allah jaɓi ('God willing', literally 'If God accepts') accompanies virtually any statement or arrangement about the future."
         }
       ]
     },
@@ -258,7 +258,7 @@
             },
             {
               "speaker": "Ousmane",
-              "pular": "Ko yettude Alla. Ko honɗun gollataa?",
+              "pular": "Ko yettude Allah. Ko honɗun gollataa?",
               "english": "Thanks be to God. What work do you do?"
             },
             {
@@ -653,7 +653,7 @@
       "category": "basic_greetings",
       "pular": "No marsude?",
       "ascii": "No marsude?",
-      "english": "How's it going? (Ça marche?)",
+      "english": "How's it going?",
       "part_of_speech": "phrase",
       "register": "casual",
       "plural_form": null,
@@ -687,8 +687,8 @@
       "id": "v09",
       "competence": 1,
       "category": "alternatives_to_jam_tun",
-      "pular": "Ko yettude Alla.",
-      "ascii": "Ko yettude Alla.",
+      "pular": "Ko yettude Allah.",
+      "ascii": "Ko yettude Allah.",
       "english": "Thanks be to God.",
       "part_of_speech": "phrase",
       "register": "neutral",
@@ -717,14 +717,14 @@
       "part_of_speech": "phrase",
       "register": "neutral",
       "plural_form": null,
-      "usage_note": "Often answered with 'En jango, si Alla jaɓi.'"
+      "usage_note": "Often answered with 'En jango, si Allah jaɓi.'"
     },
     {
       "id": "v12",
       "competence": 1,
       "category": "taking_leave",
-      "pular": "Si Alla jaɓi.",
-      "ascii": "Si Alla jabi.",
+      "pular": "Si Allah jaɓi.",
+      "ascii": "Si Allah jabi.",
       "english": "God willing.",
       "part_of_speech": "phrase",
       "register": "neutral",
@@ -1139,7 +1139,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Alla"
+          "text": "Allah"
         },
         {
           "id": "b",
@@ -1151,7 +1151,7 @@
         }
       ],
       "answer": "c",
-      "explanation": "'Alla' (stressed ll) means God, 'aala' (long initial aa) means tool, and 'alaa' (long final aa) means 'there is none' (as in 'Tanna alaa?')."
+      "explanation": "'Allah' (stressed ll) means God, 'aala' (long initial aa) means tool, and 'alaa' (long final aa) means 'there is none' (as in 'Tanna alaa?')."
     },
     {
       "id": "ex02",
@@ -1210,7 +1210,7 @@
           "right": "Did you sleep well?"
         },
         {
-          "left": "Si Alla jaɓi.",
+          "left": "Si Allah jaɓi.",
           "right": "God willing."
         }
       ],
@@ -1289,10 +1289,10 @@
         },
         {
           "index": 5,
-          "answer": "Alla",
+          "answer": "Allah",
           "accepted": [
-            "Alla",
-            "alla"
+            "Allah",
+            "allah"
           ]
         },
         {
