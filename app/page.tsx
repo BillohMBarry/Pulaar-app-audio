@@ -1,4 +1,5 @@
 import { Suspense } from "react";
+import { connection } from "next/server";
 import { Skeleton } from "@/components/ui/skeleton";
 import { VocabularyBrowser } from "@/components/learner/vocabulary-browser";
 import { getCompetences, getLearnerVocabulary } from "@/lib/curriculum";
@@ -6,19 +7,25 @@ import { createClient } from "@/lib/server";
 import type { AudioClipRow } from "@/types/audio";
 
 async function LearnerVocabularyContent() {
+  // Opt into request-time rendering cleanly inside <Suspense> before calling
+  // Supabase SSR (which uses cookies() and internal Date.now() checks).
+  await connection();
+
   const competences = getCompetences();
   const vocabulary = getLearnerVocabulary();
+  const supabase = await createClient();
 
   let approvedClips: AudioClipRow[] = [];
   try {
-    const supabase = await createClient();
-    const { data } = await supabase
+    const { data, error } = await supabase
       .from("audio_clips")
       .select("*")
       .eq("status", "approved");
-    approvedClips = (data as AudioClipRow[] | null) ?? [];
+    if (!error) {
+      approvedClips = (data as AudioClipRow[] | null) ?? [];
+    }
   } catch {
-    // Gracefully render vocabulary list even before Supabase migration is run
+    // Gracefully render vocabulary list if the network request fails
     approvedClips = [];
   }
 
