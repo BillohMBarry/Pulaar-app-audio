@@ -3,12 +3,13 @@ export type CompetenceNumber = 1 | 2 | 3;
 export type ClipStatus = "draft" | "approved" | "rejected" | "flagged";
 
 export type AllowedMimeType =
+  | "audio/wav"
   | "audio/mp4"
   | "audio/webm"
   | "audio/mpeg"
   | "audio/ogg";
 
-export type AllowedFileExt = "mp4" | "webm" | "mp3" | "ogg";
+export type AllowedFileExt = "wav" | "mp4" | "webm" | "mp3" | "ogg";
 
 export interface CompetenceMeta {
   number: CompetenceNumber;

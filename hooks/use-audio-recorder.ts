@@ -6,6 +6,7 @@ import {
   normalizeMimeType,
   pickRecordingMimeChoice,
 } from "@/lib/audio/mime";
+import { safeTrimToWav } from "@/lib/audio/safe-trim-wav";
 import type { AllowedFileExt, AllowedMimeType } from "@/types/audio";
 
 export const MAX_RECORDING_MS = 20_000;
@@ -20,7 +21,12 @@ export interface CapturedTake {
   fileName?: string;
 }
 
-export type RecorderState = "idle" | "requesting" | "recording" | "preview";
+export type RecorderState =
+  | "idle"
+  | "requesting"
+  | "recording"
+  | "processing"
+  | "preview";
 
 function describeMicError(err: unknown): string {
   if (err instanceof DOMException) {
@@ -52,6 +58,8 @@ export function useAudioRecorder() {
   const startTimeRef = useRef<number>(0);
   const chunksRef = useRef<Blob[]>([]);
   const previewUrlRef = useRef<string | null>(null);
+  const isMountedRef = useRef<boolean>(true);
+  const takeSessionIdRef = useRef<number>(0);
 
   const releaseCaptureHardware = useCallback(() => {
     if (rafIdRef.current !== null) {
@@ -83,7 +91,10 @@ export function useAudioRecorder() {
 
   // Full cleanup on unmount or Next.js 16 <Activity> route hiding
   useEffect(() => {
+    isMountedRef.current = true;
     return () => {
+      isMountedRef.current = false;
+      takeSessionIdRef.current += 1;
       if (
         mediaRecorderRef.current &&
         mediaRecorderRef.current.state !== "inactive"
@@ -126,6 +137,7 @@ export function useAudioRecorder() {
     }
 
     // Clear any prior unsaved preview before starting fresh
+    const sessionId = ++takeSessionIdRef.current;
     revokePreviewUrl();
     setTake(null);
     setElapsedMs(0);
@@ -139,6 +151,11 @@ export function useAudioRecorder() {
           autoGainControl: true,
         },
       });
+
+      if (!isMountedRef.current || takeSessionIdRef.current !== sessionId) {
+        stream.getTracks().forEach((track) => track.stop());
+        return;
+      }
 
       mediaStreamRef.current = stream;
 
@@ -192,7 +209,7 @@ export function useAudioRecorder() {
       };
 
       recorder.onstop = () => {
-        const durationMs = Math.max(
+        const rawDurationMs = Math.max(
           250,
           Math.round(Date.now() - startTimeRef.current)
         );
@@ -202,13 +219,17 @@ export function useAudioRecorder() {
           fileExt: mimeChoice.fileExt,
         };
 
-        const blob = new Blob(chunksRef.current, {
+        const rawBlob = new Blob(chunksRef.current, {
           type: normalized.mimeType,
         });
         chunksRef.current = [];
         releaseCaptureHardware();
 
-        if (blob.size === 0) {
+        if (!isMountedRef.current || takeSessionIdRef.current !== sessionId) {
+          return;
+        }
+
+        if (rawBlob.size === 0) {
           setMicError(
             "No audio was captured. Please check your microphone and try again."
           );
@@ -216,19 +237,46 @@ export function useAudioRecorder() {
           return;
         }
 
-        const previewUrl = URL.createObjectURL(blob);
-        previewUrlRef.current = previewUrl;
+        setRecorderState("processing");
 
-        setTake({
-          blob,
-          previewUrl,
-          mimeType: normalized.mimeType,
-          fileExt: normalized.fileExt,
-          durationMs,
-          source: "recorded",
-        });
-        setElapsedMs(durationMs);
-        setRecorderState("preview");
+        void (async () => {
+          const trimResult = await safeTrimToWav(rawBlob);
+
+          if (!isMountedRef.current || takeSessionIdRef.current !== sessionId) {
+            return;
+          }
+
+          const finalBlob = trimResult.blob;
+          const finalFormat =
+            normalizeMimeType(finalBlob.type) ?? normalized;
+          const finalDurationMs =
+            trimResult.durationMs !== null
+              ? Math.max(1, trimResult.durationMs)
+              : rawDurationMs;
+
+          if (finalBlob.size > MAX_AUDIO_FILE_SIZE_BYTES) {
+            setMicError(
+              "Recorded audio must be smaller than 5 MB. Please record a shorter clip."
+            );
+            setRecorderState("idle");
+            return;
+          }
+
+          revokePreviewUrl();
+          const previewUrl = URL.createObjectURL(finalBlob);
+          previewUrlRef.current = previewUrl;
+
+          setTake({
+            blob: finalBlob,
+            previewUrl,
+            mimeType: finalFormat.mimeType,
+            fileExt: finalFormat.fileExt,
+            durationMs: finalDurationMs,
+            source: "recorded",
+          });
+          setElapsedMs(finalDurationMs);
+          setRecorderState("preview");
+        })();
       };
 
       recorder.onerror = () => {
@@ -268,11 +316,12 @@ export function useAudioRecorder() {
       const normalized = normalizeMimeType(file.type, file.name);
       if (!normalized) {
         const message =
-          "Unsupported file format. Please choose an .mp4, .m4a, .webm, .mp3, or .ogg audio clip.";
+          "Unsupported file format. Please choose a .wav, .mp4, .m4a, .webm, .mp3, or .ogg audio clip.";
         setMicError(message);
         return message;
       }
 
+      takeSessionIdRef.current += 1;
       revokePreviewUrl();
       const previewUrl = URL.createObjectURL(file);
       previewUrlRef.current = previewUrl;
@@ -294,6 +343,7 @@ export function useAudioRecorder() {
   );
 
   const discardTake = useCallback(() => {
+    takeSessionIdRef.current += 1;
     if (
       mediaRecorderRef.current &&
       mediaRecorderRef.current.state !== "inactive"

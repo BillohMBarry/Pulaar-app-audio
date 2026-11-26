@@ -10,7 +10,7 @@ values (
   'pular-audio',
   true,
   5242880,
-  array['audio/mp4', 'audio/webm', 'audio/mpeg', 'audio/ogg']
+  array['audio/wav', 'audio/mp4', 'audio/webm', 'audio/mpeg', 'audio/ogg']
 )
 on conflict (id) do update
 set
@@ -120,8 +120,8 @@ create table if not exists public.audio_clips (
   status text not null default 'draft' check (status in ('draft', 'approved', 'rejected', 'flagged')),
   storage_path text,
   public_url text,
-  mime_type text check (mime_type is null or mime_type in ('audio/mp4', 'audio/webm', 'audio/mpeg', 'audio/ogg')),
-  file_ext text check (file_ext is null or file_ext in ('mp4', 'webm', 'mp3', 'ogg')),
+  mime_type text check (mime_type is null or mime_type in ('audio/wav', 'audio/mp4', 'audio/webm', 'audio/mpeg', 'audio/ogg')),
+  file_ext text check (file_ext is null or file_ext in ('wav', 'mp4', 'webm', 'mp3', 'ogg')),
   duration_ms integer check (duration_ms is null or (duration_ms > 0 and duration_ms <= 60000)),
   file_size_bytes integer check (file_size_bytes is null or (file_size_bytes > 0 and file_size_bytes <= 5242880)),
   dialect_note text,

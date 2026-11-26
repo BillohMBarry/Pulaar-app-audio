@@ -58,6 +58,14 @@ export function normalizeMimeType(
 ): { mimeType: AllowedMimeType; fileExt: AllowedFileExt } | null {
   const cleanMime = (rawMimeType ?? "").split(";")[0].trim().toLowerCase();
 
+  if (
+    cleanMime === "audio/wav" ||
+    cleanMime === "audio/wave" ||
+    cleanMime === "audio/x-wav" ||
+    cleanMime === "audio/vnd.wave"
+  ) {
+    return { mimeType: "audio/wav", fileExt: "wav" };
+  }
   if (cleanMime === "audio/mp4" || cleanMime === "audio/x-m4a" || cleanMime === "audio/m4a") {
     return { mimeType: "audio/mp4", fileExt: "mp4" };
   }
@@ -73,6 +81,9 @@ export function normalizeMimeType(
 
   // Fallback to extension inspection for browsers that omit file.type on mobile
   const ext = fileName?.split(".").pop()?.trim().toLowerCase();
+  if (ext === "wav" || ext === "wave") {
+    return { mimeType: "audio/wav", fileExt: "wav" };
+  }
   if (ext === "mp4" || ext === "m4a") {
     return { mimeType: "audio/mp4", fileExt: "mp4" };
   }

@@ -151,6 +151,8 @@ export function AudioCaptureBar({
 
   const isRecording = recorderState === "recording";
   const isRequesting = recorderState === "requesting";
+  const isProcessing = recorderState === "processing";
+  const isBusy = isRequesting || isProcessing;
   const hasPreviewTake = recorderState === "preview" && take !== null;
 
   return (
@@ -164,18 +166,18 @@ export function AudioCaptureBar({
         </Alert>
       )}
 
-      {/* Idle or Requesting state */}
+      {/* Idle, Requesting, or Processing state */}
       {!isRecording && !hasPreviewTake && (
         <div className="flex flex-col gap-2.5 sm:flex-row">
           <Button
             type="button"
             size="lg"
-            disabled={isRequesting}
+            disabled={isBusy}
             onClick={handleRecordClick}
             aria-label={`Record pronunciation for ${prompt.pularText}`}
             className="min-h-13 flex-1 gap-2 text-base font-semibold"
           >
-            {isRequesting ? (
+            {isBusy ? (
               <Loader2 className="size-5 animate-spin" aria-hidden="true" />
             ) : (
               <Mic className="size-5" aria-hidden="true" />
@@ -183,16 +185,18 @@ export function AudioCaptureBar({
             <span>
               {isRequesting
                 ? "Opening Microphone…"
-                : existingClip?.public_url
-                  ? "Record New Take"
-                  : "Tap to Record"}
+                : isProcessing
+                  ? "Preparing Preview…"
+                  : existingClip?.public_url
+                    ? "Record New Take"
+                    : "Tap to Record"}
             </span>
           </Button>
 
           <input
             ref={fileInputRef}
             type="file"
-            accept="audio/mp4,audio/mpeg,audio/webm,audio/ogg,.mp3,.mp4,.m4a,.webm,.ogg"
+            accept="audio/wav,audio/mp4,audio/mpeg,audio/webm,audio/ogg,.wav,.mp3,.mp4,.m4a,.webm,.ogg"
             className="sr-only"
             onChange={handleFileChange}
             aria-label={`Upload audio file for ${prompt.pularText}`}
@@ -201,7 +205,7 @@ export function AudioCaptureBar({
             type="button"
             variant="outline"
             size="lg"
-            disabled={isRequesting}
+            disabled={isBusy}
             onClick={() => fileInputRef.current?.click()}
             aria-label={`Upload file for ${prompt.pularText}`}
             className="min-h-13 gap-2 sm:w-auto"
@@ -271,6 +275,9 @@ export function AudioCaptureBar({
               </span>
               <span className="text-xs text-muted-foreground">
                 Format: .{take.fileExt} · {(take.blob.size / 1024).toFixed(0)} KB
+                {take.source === "recorded" && take.durationMs > 0
+                  ? ` · ${(take.durationMs / 1000).toFixed(1)}s`
+                  : ""}
               </span>
             </div>
 
